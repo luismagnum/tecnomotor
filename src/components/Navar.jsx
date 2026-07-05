@@ -21,7 +21,7 @@ const Navar = () => {
                 <span>
                     
                 </span>
-                <h1 className='text-xl ml-2 font-semibold'>TECNO-MOTOR</h1>
+                <h1 className='text-xl ml-2 font-bold'>TECNO-MOTOR VR</h1>
             </div>
             <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                 <Link
@@ -29,7 +29,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-[#15225b]  transition-all cursor-pointer'>
+                 className='hover:text-yellow-500 transition-all cursor-pointer'>
                  HOME
                  </Link>
                 <Link 
@@ -37,7 +37,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-[#15225b]  transition-all cursor-pointer'>
+                 className='hover:text-yellow-500 transition-all cursor-pointer'>
                  QUIENES SOMOS
                  </Link>
                 <Link 
@@ -45,7 +45,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-[#15225b] transition-all cursor-pointer'>
+                 className='hover:text-yellow-500 transition-all cursor-pointer'>
                  SERVICIOS
                 </Link>
                 <Link 
@@ -53,7 +53,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-[#15225b]   transition-all cursor-pointer'>
+                 className='hover:text-yellow-500   transition-all cursor-pointer'>
                  CONTACTO
                 </Link>
 
