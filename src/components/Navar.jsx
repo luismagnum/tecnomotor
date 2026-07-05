@@ -99,7 +99,7 @@ const Navar = () => {
                  spy={true} 
                  smooth={true} 
                  duration={500} 
-                 className='hover:text-white  transition-all cursor-pointer'
+                 className='hover:text-black  transition-all cursor-pointer'
                  onClick={closeMenu}>
                  CONTACTO
                 </Link>
