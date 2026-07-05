@@ -1,9 +1,9 @@
-
+import Hero from "./components/Hero";
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl text-blue-500">hola tecnomotores</h1>
+      <Hero />
     </>
   )
 }
