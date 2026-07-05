@@ -5,9 +5,13 @@ function App() {
 
   return (
     <>
+      <div id='navar'>
       <Navar />
+      </div>
       <Hero />
+      <div id='somos'>
       <Somos />
+      </div>
     </>
   )
 }
