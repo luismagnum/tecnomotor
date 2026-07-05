@@ -82,11 +82,11 @@ const Hero = () => {
               <img
                 src={hero}
                 alt="Soluciones técnicas integrales para flotas, camiones, autoelevadores, maquinaria agroindustrial y vehículos livianos"
-                className="h-[260px] w-full object-cover object-center sm:h-[340px] md:h-[420px] lg:h-[520px]"
+                className="h-65 w-full object-cover object-center sm:h-85 md:h-105 lg:h-130"
               />
 
               {/* Overlay suave */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/30 via-transparent to-transparent"></div>
             </div>
           </div>
         </div>
