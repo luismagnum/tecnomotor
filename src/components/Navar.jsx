@@ -41,7 +41,7 @@ const Navar = () => {
                  QUIENES SOMOS
                  </Link>
                 <Link 
-                 to=''
+                 to='servicios'
                  spy={true} 
                  smooth={true} 
                  duration={500} 
@@ -86,7 +86,7 @@ const Navar = () => {
                  QUIENES SOMOS
                  </Link>
                 <Link 
-                 to=''
+                 to='servicios'
                  spy={true} 
                  smooth={true} 
                  duration={500} 
