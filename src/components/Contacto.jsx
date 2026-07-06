@@ -175,7 +175,7 @@ const Contacto = () => {
         <div className="flex flex-col gap-4 pt-8 text-center text-sm text-gray-400 sm:flex-row sm:items-center sm:justify-between sm:text-left">
           <p>
             © {currentYear}{" "}
-            <span className="font-bold text-white">Tecno Motor</span>. Todos los
+            <span className="font-bold text-white">Tecno Motorvr</span>. Todos los
             derechos reservados.
           </p>
 
