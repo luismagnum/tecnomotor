@@ -2,6 +2,9 @@ import Hero from "./components/Hero";
 import Navar from "./components/Navar";
 import Somos from "./components/Somos";
 import Servicios from "./components/Servicios";
+import AltaGama from "./components/AltaGama";
+import Ubicacion from "./components/Ubicacion";
+import Contacto from "./components/Contacto";
 
 function App() {
 
@@ -17,6 +20,9 @@ function App() {
       <div id='servicios'>
       <Servicios />
       </div>
+      <AltaGama />
+      <Ubicacion />
+      <Contacto />
     </>
   )
 }

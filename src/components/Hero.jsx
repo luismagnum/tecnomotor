@@ -49,7 +49,7 @@ const Hero = () => {
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
-                href="https://wa.me/5491158023306?text=Hola,%20quiero%20consultar%20por%20mantenimiento%20de%20flotas"
+                href="https://wa.me/5492984230704?text=Hola,%20quiero%20consultar%20por%20mantenimiento%20de%20flotas"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-orange-500 px-8 py-4 text-base font-bold text-white transition duration-300 hover:bg-yellow-400 hover:text-black"

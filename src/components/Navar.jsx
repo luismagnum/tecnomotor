@@ -49,7 +49,7 @@ const Navar = () => {
                  SERVICIOS
                 </Link>
                 <Link 
-                 to='' 
+                 to='contacto' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
@@ -95,7 +95,7 @@ const Navar = () => {
                  SERVICIOS
                 </Link>
                 <Link 
-                 to='' 
+                 to='contacto' 
                  spy={true} 
                  smooth={true} 
                  duration={500} 
