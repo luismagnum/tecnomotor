@@ -24,7 +24,7 @@ const Hero = () => {
             </h1>
 
             <p className="mt-6 max-w-2xl text-base leading-8 text-gray-300 sm:text-lg">
-              En TecnoMotor ofrecemos soluciones técnicas para vehículos de alta
+              En TecnoMotorVR ofrecemos soluciones técnicas para vehículos de alta
               gama, vehículos de pasajeros y autos particulares. Realizamos
               diagnóstico computarizado, mantenimiento preventivo y reparación
               integral con equipamiento profesional.
@@ -125,11 +125,11 @@ const Hero = () => {
           </div>
 
           {/* Imagen */}
-          <div className="order-1 lg:order-2 lg:pt-6">
+          <div className="order-1 lg:order-2 lg:pt-20">
             <div className="relative overflow-hidden rounded-3xl border border-orange-500/30 bg-zinc-950 shadow-2xl shadow-orange-500/10">
               <img
                 src={hero}
-                alt="Taller mecánico TecnoMotor especializado en reparación de autos de alta gama y vehículos particulares"
+                alt="Taller mecánico TecnoMotorvr especializado en reparación de autos de alta gama y vehículos particulares"
                 className="h-[280px] w-full object-cover object-center sm:h-[430px] md:h-[520px] lg:h-[560px] xl:h-[620px]"
               />
 
@@ -139,7 +139,7 @@ const Hero = () => {
               {/* Tarjeta sobre imagen - oculta en celular */}
               <div className="absolute bottom-5 left-5 right-5 hidden rounded-2xl border border-yellow-400/30 bg-black/75 p-5 backdrop-blur-md md:block">
                 <p className="text-sm font-bold uppercase tracking-widest text-yellow-300">
-                  TecnoMotor
+                  TecnoMotorVR
                 </p>
 
                 <h2 className="mt-1 text-2xl font-black text-white">
