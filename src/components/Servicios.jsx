@@ -65,7 +65,7 @@ const Servicios = () => {
             </h2>
 
             <p className="mt-6 text-base leading-8 text-gray-300 sm:text-lg">
-              En TecnoMotor brindamos soluciones técnicas integrales para
+              En TecnoMotorVR brindamos soluciones técnicas integrales para
               equipos de trabajo pesado. Realizamos mantenimiento preventivo,
               correctivo, diagnóstico técnico y asistencia para que tu operación
               no se detenga.
@@ -112,10 +112,10 @@ const Servicios = () => {
               </a>
 
               <a
-                href="#servicios"
+                href="#ubicacion"
                 className="inline-flex items-center justify-center rounded-full border border-yellow-400/60 px-8 py-4 text-center text-base font-black text-yellow-300 transition duration-300 hover:bg-yellow-400 hover:text-black"
               >
-                Ver todos los servicios
+                Ver ubicacion
               </a>
             </div>
           </div>

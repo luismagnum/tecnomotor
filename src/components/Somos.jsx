@@ -47,7 +47,7 @@ const Somos = () => {
             </h2>
 
             <p className="mt-6 text-base leading-8 text-gray-300 sm:text-lg">
-              En <strong className="text-white">TecnoMotor</strong> ofrecemos
+              En <strong className="text-white">TecnoMotorVR</strong> ofrecemos
               servicios de reparación y mantenimiento para vehículos
               particulares, autos de alta gama, camiones, autoelevadores,
               tractores y maquinaria de trabajo.
@@ -84,10 +84,10 @@ const Somos = () => {
               </a>
 
               <a
-                href="#servicios"
+                href="#ubicacion"
                 className="inline-flex items-center justify-center rounded-full border border-yellow-400/60 px-8 py-4 text-center text-base font-black text-yellow-300 transition duration-300 hover:bg-yellow-400 hover:text-black"
               >
-                Ver servicios
+                Ver ubicacion
               </a>
             </div>
           </div>
