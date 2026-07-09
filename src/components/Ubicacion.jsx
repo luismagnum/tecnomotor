@@ -14,7 +14,7 @@ const Ubicacion = () => {
 
       <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         {/* Encabezado */}
-        <div className="mx-auto max-w-3xl text-center">
+        <div data-aos="zoom-out" className="mx-auto max-w-3xl text-center">
           <span className="inline-flex rounded-full border border-orange-500/50 bg-orange-500/10 px-4 py-2 text-sm font-bold text-yellow-300">
             Nuestra ubicación
           </span>
@@ -35,7 +35,7 @@ const Ubicacion = () => {
         <div className="mt-14 grid gap-8 lg:grid-cols-[0.85fr_1.15fr]">
           {/* Datos */}
           <div className="rounded-3xl border border-orange-500/30 bg-zinc-950 p-6 shadow-2xl shadow-orange-500/10 sm:p-8">
-            <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl border border-yellow-400/30 bg-gradient-to-br from-orange-500/20 to-yellow-400/10 text-3xl">
+            <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl border border-yellow-400/30 bg-linear-to-br from-orange-500/20 to-yellow-400/10 text-3xl">
               📍
             </div>
 
@@ -98,7 +98,7 @@ const Ubicacion = () => {
 
           {/* Mapa */}
           <div className="overflow-hidden rounded-3xl border border-orange-500/30 bg-zinc-950 p-2 shadow-2xl shadow-orange-500/10">
-            <div className="h-[320px] overflow-hidden rounded-2xl sm:h-[420px] lg:h-full lg:min-h-[520px]">
+            <div className="h-80 overflow-hidden rounded-2xl sm:h-105 lg:h-full lg:min-h-130">
               <iframe
                 title="Ubicación Tecno Motor en Google Maps"
                 src="https://www.google.com/maps?q=Juan%20Moreira%20582%2C%20Villa%20Regina%2C%20Rio%20Negro&output=embed"

@@ -38,7 +38,7 @@ const Navar = () => {
                  smooth={true} 
                  duration={500} 
                  className='hover:text-yellow-500 transition-all cursor-pointer'>
-                 QUIENES SOMOS
+                 NOSOTROS
                  </Link>
                 <Link 
                  to='servicios'
@@ -46,7 +46,7 @@ const Navar = () => {
                  smooth={true} 
                  duration={500} 
                  className='hover:text-yellow-500 transition-all cursor-pointer'>
-                 SERVICIOS
+                 INDUSTRIALES
                 </Link>
                 <Link 
                  to='contacto' 
@@ -83,7 +83,7 @@ const Navar = () => {
                  duration={500} 
                  className='hover:text-white  transition-all cursor-pointer'
                  onClick={closeMenu}>
-                 QUIENES SOMOS
+                 NOSOTROS
                  </Link>
                 <Link 
                  to='servicios'
@@ -92,7 +92,7 @@ const Navar = () => {
                  duration={500} 
                  className='hover:text-white  transition-all cursor-pointer'
                  onClick={closeMenu}>
-                 SERVICIOS
+                 INDUSTRIALES
                 </Link>
                 <Link 
                  to='contacto' 

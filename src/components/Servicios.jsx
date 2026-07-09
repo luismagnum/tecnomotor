@@ -49,7 +49,7 @@ const Servicios = () => {
       <div className="absolute -left-24 top-24 h-72 w-72 rounded-full bg-orange-500/20 blur-3xl"></div>
       <div className="absolute -right-24 bottom-24 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl"></div>
 
-      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+      <div data-aos="zoom-in" className="relative z-10 mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Contenido */}
           <div>
@@ -126,11 +126,11 @@ const Servicios = () => {
     <img
       src={tractor}
       alt="Reparación y mantenimiento de camiones, autoelevadores y tractores"
-      className="h-[280px] w-full object-cover object-center sm:h-[400px] md:h-[520px] lg:h-[620px]"
+      className="h-70 w-full object-cover object-center sm:h-100 md:h-130 lg:h-155"
     />
 
     {/* Overlay más suave en celular */}
-    <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-black/5 to-transparent md:from-black/75 md:via-black/10"></div>
+    <div className="absolute inset-0 bg-linear-to-t from-black/35 via-black/5 to-transparent md:from-black/75 md:via-black/10"></div>
 
     {/* Tarjeta sobre imagen - solo tablet y escritorio */}
     <div className="absolute bottom-5 left-5 right-5 hidden rounded-2xl border border-yellow-400/30 bg-black/75 p-5 backdrop-blur-md md:block">
@@ -157,7 +157,7 @@ const Servicios = () => {
               key={index}
               className="group rounded-3xl border border-orange-500/20 bg-zinc-950 p-6 shadow-xl shadow-orange-500/5 transition duration-300 hover:-translate-y-2 hover:border-orange-500/70 hover:shadow-orange-500/20"
             >
-              <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl border border-yellow-400/30 bg-gradient-to-br from-orange-500/20 to-yellow-400/10 text-3xl">
+              <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl border border-yellow-400/30 bg-linear-to-br from-orange-500/20 to-yellow-400/10 text-3xl">
                 {servicio.icon}
               </div>
 
@@ -187,7 +187,7 @@ const Servicios = () => {
         </div>
 
         {/* Franja inferior */}
-        <div className="mt-16 rounded-3xl border border-orange-500/30 bg-gradient-to-r from-zinc-950 via-zinc-900 to-black p-6 shadow-2xl shadow-orange-500/10 sm:p-8 lg:p-10">
+        <div className="mt-16 rounded-3xl border border-orange-500/30 bg-linear-to-r from-zinc-950 via-zinc-900 to-black p-6 shadow-2xl shadow-orange-500/10 sm:p-8 lg:p-10">
           <div className="grid gap-6 text-center sm:grid-cols-3">
             <div>
               <p className="text-3xl font-black text-orange-500">24 hs</p>

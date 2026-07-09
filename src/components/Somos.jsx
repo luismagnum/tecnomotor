@@ -31,7 +31,7 @@ const Somos = () => {
       <div className="absolute -left-24 top-20 h-72 w-72 rounded-full bg-orange-500/20 blur-3xl"></div>
       <div className="absolute -right-24 bottom-20 h-72 w-72 rounded-full bg-yellow-400/10 blur-3xl"></div>
 
-      <div className="relative z-10 mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+      <div data-aos="fade-right" className="relative z-10 mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Contenido principal */}
           <div>
@@ -99,7 +99,7 @@ const Somos = () => {
                 key={index}
                 className="group rounded-3xl border border-orange-500/20 bg-zinc-950 p-6 shadow-xl shadow-orange-500/5 transition duration-300 hover:-translate-y-2 hover:border-orange-500/70 hover:shadow-orange-500/20"
               >
-                <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl border border-yellow-400/30 bg-gradient-to-br from-orange-500/20 to-yellow-400/10 text-3xl">
+                <div className="mb-5 flex h-16 w-16 items-center justify-center rounded-2xl border border-yellow-400/30 bg-linear-to-br from-orange-500/20 to-yellow-400/10 text-3xl">
                   {item.icon}
                 </div>
 
@@ -116,7 +116,7 @@ const Somos = () => {
         </div>
 
         {/* Franja inferior */}
-        <div className="mt-16 rounded-3xl border border-orange-500/30 bg-gradient-to-r from-zinc-950 via-zinc-900 to-black p-6 shadow-2xl shadow-orange-500/10 sm:p-8 lg:p-10">
+        <div className="mt-16 rounded-3xl border border-orange-500/30 bg-linear-to-r from-zinc-950 via-zinc-900 to-black p-6 shadow-2xl shadow-orange-500/10 sm:p-8 lg:p-10">
           <div className="grid gap-6 text-center sm:grid-cols-3">
             <div>
               <p className="text-3xl font-black text-orange-500">Calidad</p>

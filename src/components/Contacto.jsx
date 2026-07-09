@@ -12,7 +12,7 @@ const Contacto = () => {
 
       <div className="relative z-10 mx-auto max-w-7xl px-5 py-14 sm:px-6 lg:px-8">
         {/* CTA superior */}
-        <div className="mb-12 rounded-3xl border border-orange-500/30 bg-gradient-to-r from-zinc-950 via-zinc-900 to-black p-6 shadow-2xl shadow-orange-500/10 sm:p-8 lg:p-10">
+        <div className="mb-12 rounded-3xl border border-orange-500/30 bg-linear-to-r from-zinc-950 via-zinc-900 to-black p-6 shadow-2xl shadow-orange-500/10 sm:p-8 lg:p-10">
           <div className="grid items-center gap-8 lg:grid-cols-[1.4fr_0.6fr]">
             <div>
               <span className="text-sm font-bold uppercase tracking-widest text-yellow-300">

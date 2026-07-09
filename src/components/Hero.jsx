@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="relative z-10 mx-auto max-w-7xl px-5 py-10 sm:px-6 sm:py-14 lg:px-8 lg:py-20">
         <div className="grid min-h-[calc(100vh-80px)] items-start gap-10 lg:grid-cols-2 lg:gap-14">
           {/* Contenido */}
-          <div className="order-2 lg:order-1 lg:pt-4">
+          <div data-aos="zoom-in-down" className="order-2 lg:order-1 lg:pt-4">
             <span className="inline-flex rounded-full border border-orange-500/50 bg-orange-500/10 px-4 py-2 text-sm font-bold text-yellow-300">
               Mecánica especializada
             </span>
@@ -130,11 +130,11 @@ const Hero = () => {
               <img
                 src={hero}
                 alt="Taller mecánico TecnoMotorvr especializado en reparación de autos de alta gama y vehículos particulares"
-                className="h-[280px] w-full object-cover object-center sm:h-[430px] md:h-[520px] lg:h-[560px] xl:h-[620px]"
+                className="h-70 w-full object-cover object-center sm:h-107.5 md:h-130 lg:h-140 xl:h-155"
               />
 
               {/* Overlay suave */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/5 to-transparent md:from-black/70 md:via-black/10"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/40 via-black/5 to-transparent md:from-black/70 md:via-black/10"></div>
 
               {/* Tarjeta sobre imagen - oculta en celular */}
               <div className="absolute bottom-5 left-5 right-5 hidden rounded-2xl border border-yellow-400/30 bg-black/75 p-5 backdrop-blur-md md:block">
