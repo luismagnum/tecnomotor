@@ -75,7 +75,7 @@ const Somos = () => {
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
-                href="https://wa.me/549XXXXXXXXXX?text=Hola,%20quiero%20consultar%20por%20los%20servicios%20del%20taller%20TecnoMotor"
+                href="https://wa.me/5492984513306?text=Hola,%20quiero%20consultar%20por%20los%20servicios%20del%20taller%20TecnoMotor"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-orange-500 px-8 py-4 text-center text-base font-black text-white shadow-xl shadow-orange-500/30 transition duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black"

@@ -86,7 +86,7 @@ const Ubicacion = () => {
               </a>
 
               <a
-                href="https://wa.me/5492984230704?text=Hola,%20quiero%20consultar%20por%20los%20servicios%20de%20Tecno%20Motor"
+                href="https://wa.me/5492984513306?text=Hola,%20quiero%20consultar%20por%20los%20servicios%20de%20Tecno%20Motor"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full border border-yellow-400/60 px-8 py-4 text-center text-base font-black text-yellow-300 transition duration-300 hover:bg-yellow-400 hover:text-black"

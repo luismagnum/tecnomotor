@@ -32,7 +32,7 @@ const Contacto = () => {
 
             <div className="flex flex-col gap-4">
               <a
-                href="https://wa.me/549XXXXXXXXXX?text=Hola,%20quiero%20consultar%20por%20los%20servicios%20de%20TecnoMotorVR"
+                href="https://wa.me/5492984513306?text=Hola,%20quiero%20consultar%20por%20los%20servicios%20de%20TecnoMotorVR"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-orange-500 px-8 py-4 text-center text-base font-black text-white shadow-xl shadow-orange-500/30 transition duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black"
@@ -160,17 +160,17 @@ const Contacto = () => {
 
                 <div className="mt-2 space-y-2">
                   <a
-                    href="tel:+549XXXXXXXXXX"
+                    href="tel:+5492984513306"
                     className="block transition hover:text-yellow-300"
                   >
-                    +54 9 XXX XXX XXXX
+                    +54 9 2984513306
                   </a>
 
                   <a
-                    href="tel:+549XXXXXXXXXX"
+                    href="tel:+5492984230704"
                     className="block transition hover:text-yellow-300"
                   >
-                    +54 9 XXX XXX XXXX
+                    +54 9 2984230704
                   </a>
                 </div>
               </div>
